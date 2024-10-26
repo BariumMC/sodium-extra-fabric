@@ -15,7 +15,7 @@ val PARCHMENT_VERSION by extra { null }
 val MAVEN_GROUP by extra { "me.flashyreese.mods" }
 val ARCHIVE_NAME by extra { "sodium-extra" }
 val MOD_VERSION by extra { "0.6.0-beta.3" }
-val SODIUM_VERSION by extra { "mc1.21-0.6.0-beta.3" }
+val SODIUM_VERSION by extra { "mc1.21.2-0.6.0-beta.3" }
 
 allprojects {
     apply(plugin = "java")
