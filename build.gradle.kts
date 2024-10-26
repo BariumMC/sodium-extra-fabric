@@ -1,10 +1,10 @@
 plugins {
     id("java")
-    id("fabric-loom") version ("1.7.3") apply (false)
+    id("fabric-loom") version ("1.8.10") apply (false)
 }
 
 val MINECRAFT_VERSION by extra { "1.21.2" }
-val NEOFORGE_VERSION by extra { "21.1.23" }
+val NEOFORGE_VERSION by extra { "21.2.0-alpha.1.21.2-rc1.20241017.223717" }
 val FABRIC_LOADER_VERSION by extra { "0.16.5" }
 val FABRIC_API_VERSION by extra { "0.106.1+1.21.2" }
 
